@@ -17,7 +17,7 @@ def parse_args(args):
         outfile = args[2] if len(args) == 3 else "match.csv"
         return args[1], outfile
     else:
-        sys.exit("Usage: python final_project.py input_file [output_file]")
+        sys.exit("Usage: python project.py input_file [output_file]")
 
 if __name__ == "__main__":
     main()
