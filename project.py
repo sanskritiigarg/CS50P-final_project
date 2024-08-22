@@ -2,7 +2,7 @@ import sys
 import csv
 
 def main():
-    infile, outfile = check_args(sys.argv)
+    infile, outfile = parse_args(sys.argv)
     males, females = map(list, ([],)*2)
     with open(infile) as csvfile:
         reader = csv.DictReader(csvfile)
@@ -12,8 +12,7 @@ def main():
     print(males)
     print(females)
 
-def check_args(args):
-    print(args)
+def parse_args(args):
     if 1 < len(args) <= 3:
         outfile = args[2] if len(args) == 3 else "match.csv"
         return args[1], outfile
