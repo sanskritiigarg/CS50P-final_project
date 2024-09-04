@@ -18,10 +18,16 @@ The program will also prompt the user if they want a matched table printed. The 
 **pytest**: to test the functions made inside the project.
 #### Note:
 This program only supports the following gender:
+
 'male'
+
 'female'
+
 This program only supports the following gender preferences:
+
 'male'
+
 'female'
+
 'male/female'
 
