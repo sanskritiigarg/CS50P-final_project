@@ -21,15 +21,12 @@ The program will also prompt the user if they want a matched table printed. The 
 ## Note:
 This program only supports the following gender:
 
-'male'
-
+'male',
 'female'
 
 This program only supports the following gender preferences:
 
-'male'
-
-'female'
-
+'male',
+'female',
 'male/female'
 
