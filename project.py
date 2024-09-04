@@ -67,7 +67,7 @@ def main():
         print("\nUnmatched candidates:\n")
         print(tabulate(rows, headers=header, tablefmt=format if format != "" else "grid"))
     else:
-        print("\nNo unmatched candidates. All matched!\n")
+        print("\nNo unmatched candidates. All matched!")
 
 
 def parse_args(args):
