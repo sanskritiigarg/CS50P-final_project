@@ -57,6 +57,8 @@ Candidates who could not be matched with a suitable candidate are added to Unmat
 
 If the user wants a table and has input a correct table format, then a table of the matched candidates is displayed in the terminal. It is of the specified format. If there are any unmatched candidates, they will be displayed in a table even if the user does not want a table of matched candidates.
 
+The supported table formats are mentioned in [tabulate](https://pypi.org/project/tabulate/) documentation. The formats are to be written exactly as stated in the documentation.
+
 ## TODO:
 #### Download
 Download the Repository through Clone Repository or Download Zip
